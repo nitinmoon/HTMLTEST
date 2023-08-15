@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/technofi/public_html/dev-technofiles-in/
+    - /bin/cp * $DEPLOYPATH
